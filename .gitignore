@@ -1,0 +1,39 @@
+# ========== ARCHIVOS DE PYTHON ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+*.sqlite
+*.db
+
+# ========== ENTORNOS VIRTUALES ==========
+venv/
+.env/
+.env.bak
+.envrc
+
+# ========== ARCHIVOS DEL SISTEMA ==========
+.DS_Store
+Thumbs.db
+
+# ========== ARCHIVOS DE CONFIGURACIÓN / LOGS ==========
+*.log
+
+# ========== STREAMLIT ==========
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ========== DATOS LOCALES ==========
+*.csv
+*.xlsx
+*.parquet
+*.json
+data/
+datasets/
+
+# (IMPORTANTE: subí solo datasets pequeños si son públicos. En tu caso NO subir dataset real.)
+
+# ========== MISC ==========
+*.bak
+*.tmp
